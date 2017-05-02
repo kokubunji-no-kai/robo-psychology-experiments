@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>質問コントローラー</title>
+</head>
+<body>
+  <h1>質問コントローラー</h1>
+  <div>
+    <h2>質問リスト</h2>
+    <ul id="q-list">
+        <li>A
+            <ul id="q-A"></ul>
+        </li>
+        <li>B
+            <ul id="q-B"></ul>
+        </li>
+    </ul>
+  </div>
+  <div>
+    <h2>返答</h2>
+    <ul id="rep-list">
+    </ul>
+  </div>
+  <div>
+    <h2>その他操作</h2>
+    <ul id="etc-list">
+      <li>
+          <button type="button" id="btn-nod">うなずく</button>
+      </li>
+      <li>
+          <button type="button" id="btn-exit" style="background-color: orangered;";>アプリを終了</button>
+      </li>
+    </ul>
+  </div>
+  <script src="./vendor/jquery/jquery-v2.2.4.min.js" charset="utf-8"></script>
+  <script src="./vendor/qi/2/qi.js" charset="utf-8"></script>
+  <script src="./vendor/lodash/lodash.js" charset="utf-8"></script>
+  <script src="./js/remote.js" charset="utf-8"></script>
+</body>
+</html>
