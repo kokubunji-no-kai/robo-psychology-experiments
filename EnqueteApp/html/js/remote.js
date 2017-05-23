@@ -73,7 +73,7 @@ $(function() {
         var className = $(this).attr('class');
         saytext = '\\RSPD=105\\ \\VCT=135\\ ' + saytext;
         if(className == 'q-btn'){
-          $(this).attr('disabled', true);
+          $(this).attr('style', 'color:red');
         }
         pepper.ats.say(saytext);
       })
