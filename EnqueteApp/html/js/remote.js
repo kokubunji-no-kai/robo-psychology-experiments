@@ -42,7 +42,8 @@ $(function() {
             {
               class: className,
               text: this.text,
-              value: this.saytext
+              value: this.saytext,
+              style: this.style != undefined ? this.style : 'color:black',
             })
           )
         .appendTo($targetListElm);
